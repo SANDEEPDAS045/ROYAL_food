@@ -29,51 +29,6 @@ restaurant-app/
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Clone / Navigate to the project
-
-```bash
-cd restaurant-app
-```
-
-### 2. Set up the Python backend
-
-```bash
-cd backend
-python -m venv venv
-
-# macOS / Linux:
-source venv/bin/activate
-
-# Windows:
-venv\Scripts\activate
-
-pip install -r requirements.txt
-```
-
-### 3. Run the server
-
-```bash
-python app.py
-```
-
-You should see:
-```
-  🍽️  NOVA Restaurant Management System
-  ✅  Database initialised at: .../restaurant.db
-  🌐  Open → http://localhost:5000
-```
-
-### 4. Open the app
-
-Visit **http://localhost:5000** in your browser.
-
-> The database is automatically created with seed data (12 tables, 15 menu items,
-> 5 customers, and a week of sample order history) on first launch.
-
----
-
 ## 🔌 REST API Reference
 
 | Method | Endpoint               | Description                     |
