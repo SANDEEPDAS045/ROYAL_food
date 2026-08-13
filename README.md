@@ -1,31 +1,59 @@
-# 🍽️ NOVA Restaurant Management System
+# ✨ Royal Foods Luxury Hospitality System
 
-A full-stack restaurant management dashboard with a dark fintech-inspired UI.
+A full-stack restaurant & dining room management dashboard with a classy, modern luxury aesthetic ("Luxe Noir").
 
-**Stack:** HTML · CSS · JavaScript · Python (Flask) · SQLite
+**Stack:** HTML · Vanilla CSS · JavaScript · Python (Flask) · SQLite
 
 ---
 
 ## 📁 Project Structure
 
 ```
-restaurant-app/
+nova/
 ├── backend/
 │   ├── app.py          # Flask REST API
 │   ├── schema.sql      # DB schema + seed data
 │   └── requirements.txt
 └── frontend/
     ├── index.html      # SPA shell
-    ├── css/
-    │   └── style.css   # Dark fintech theme
-    └── js/
-        ├── app.js       # Router · API · Modal · Toast
-        ├── dashboard.js # Stats + Chart.js chart
-        ├── tables.js    # Table grid + management
-        ├── orders.js    # Order builder + list
-        ├── menu.js      # Menu CRUD
-        └── customers.js # Customer directory
+    ├── style.css       # Luxe Noir design system
+    ├── app.js          # Router · API · Modal · Toast
+    ├── dashboard.js    # Stats + Chart.js chart
+    ├── tables.js       # Floor plan + table management
+    ├── orders.js       # Order builder + live feed
+    ├── menu.js         # Culinary catalogue CRUD
+    └── customers.js    # VIP & guest directory
 ```
+
+---
+
+## 🚀 Quick Start
+
+### 1. Navigate to the project
+
+```bash
+cd backend
+```
+
+### 2. Run the server
+
+```bash
+python app.py
+```
+
+You should see:
+```
+  ✨  Royal Foods Luxury Hospitality Management System
+  ✅  Database initialised at: .../restaurant.db
+  🌐  Open → http://localhost:5050
+```
+
+### 3. Open the app
+
+Visit **http://localhost:5050** in your browser.
+
+> The database is automatically created with seed data (12 tables, 15 menu items,
+> 5 customers, and a week of sample order history) on first launch.
 
 ---
 
